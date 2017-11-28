@@ -1,2 +1,1 @@
-# nodejs-blog
-node.js-blog
+# node.js 开发简单博客系统
