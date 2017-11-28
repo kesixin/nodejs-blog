@@ -1,0 +1,2 @@
+mongodb 数据库启动：mongod --dbpath=D:\xampp\htdocs\Blog\db --port=27018
+服务器启动：node app.js
