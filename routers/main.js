@@ -34,12 +34,12 @@ router.use(function (req, res, next) {
 router.get('/', function (req, res, next) {
 
     if(req.session.sign){
-        console.log(req.session);
-        console.log(req.session.name+'欢迎再次登录');
+        //console.log(req.session);
+        //console.log(req.session.name+'欢迎再次登录');
     }else{
         req.session.sign=true;
         req.session.name='汇智网';
-        console.log('欢迎登录');
+        //console.log('欢迎登录');
     }
 
     data.contents = [];
